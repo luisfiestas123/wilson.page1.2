@@ -1,0 +1,43 @@
+/*Website Library*/
+/*Import*/
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+/*Import Css Styles*/
+@import url('header.css');
+
+/*Variable*/
+:root {
+   /*Color de la Web Texto*/
+    --color-title:#271f1f;
+    --color-title-parrafo:#292929;
+    --color-white:#fff;
+   /*Background web */
+    --background-carrito:#EAC0BF;
+    --background-btn:#EAC0BF;
+    --background-logo:#EAC0BF;
+   /*Tipos de letra*/
+    --logo-principal:'Sansita Swashed', cursive;
+    --text-superior:'Dosis', sans-serif;
+    --texto-parrafo:'Space Grotesk', sans-serif;
+   /*Font Size*/
+    --logo-size:22px; 
+    --font-main:16px;
+    --titulo-size:60px;
+    --font-parrafo:17px;
+    --boton-text:17px;
+}
+
+/*Algunos Cambios por Defecto*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior:smooth;
+  }
+/*Fin de estos Styles*/
